@@ -1,3 +1,11 @@
+/*
+ * @Author: HTT httishere0728@gmail.com
+ * @Date: 2023-07-03 19:12:27
+ * @LastEditors: HTT httishere0728@gmail.com
+ * @LastEditTime: 2023-07-03 19:13:36
+ * @FilePath: /NotionBlog/themes/hexo/components/Footer.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 import React from 'react'
 import BLOG from '@/blog.config'
 // import DarkModeButton from '@/components/DarkModeButton'
@@ -27,8 +35,7 @@ const Footer = ({ title }) => {
       <span className='pl-2 hidden busuanzi_container_site_uv'>
         <i className='fas fa-users'/> <span className='px-1 busuanzi_value_site_uv'> </span> </span>
         <br/>
-        <h1>{title}</h1>
-        <span className='text-xs '>Powered by <a href='https://github.com/tangly1024/NotionNext' className='underline dark:text-gray-300'>NotionNext {BLOG.VERSION}</a>.</span></span><br/>
+        <h1>{title}</h1></span><br/>
 
     </footer>
   )
